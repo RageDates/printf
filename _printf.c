@@ -63,15 +63,4 @@ int _printf(const char *format, ...)
                 count++;
                 break;
             default:
-                putchar(format[index]);
-            }
-        }
-        else
-        {
-            putchar(format[index]);
-        }
-    index++;
-	}
-    return (count);
-}
-
+                putchar(format[index

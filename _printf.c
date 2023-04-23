@@ -61,6 +61,7 @@ int _printf(const char *format, ...)
 				case 'p':
 					len += _print_pointer(va_arg(args, void *));
 					break;
+					/**
 				case '+':
 					_print_plus_flag();
 					break;
@@ -82,6 +83,7 @@ int _printf(const char *format, ...)
 				case '-':
 					_print_minus_flag();
 					break;
+					*/
 				case 'r':
 					str = va_arg(args, char *);
 					if (str == NULL)
